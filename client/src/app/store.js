@@ -1,8 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import supervisorReducer from '../features/formSlice';
+// import logger from 'redux-logger';
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
-  },
+    supervisor: supervisorReducer,
+  }
+  //  middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(logger)
 });
