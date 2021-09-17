@@ -1,0 +1,26 @@
+{
+  "name": "lightfeather-project",
+  "version": "1.0.0",
+  "description": "technical coding",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "cd client && yarn start",
+    "server": "cd server && yarn start",
+    "start": "concurrently \"yarn run client\" \"yarn run server\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mburg0s/lightfeather-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mburg0s/lightfeather-project/issues"
+  },
+  "homepage": "https://github.com/mburg0s/lightfeather-project#readme",
+  "dependencies": {
+    "concurrently": "^6.2.1"
+  }
+}
