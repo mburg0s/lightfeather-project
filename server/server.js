@@ -19,7 +19,7 @@ app.get('/api/supervisors',(req,res) => {
 
     })
 
-     console.log(sortJur)
+    //  console.log(sortJur)
     res.json(sortJur)
 })
 

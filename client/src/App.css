@@ -37,3 +37,49 @@
     transform: translateY(0px);
   }
 }
+
+.form{
+  margin-top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  width: 700px;
+  background-color: #548ec9;
+  color: white;
+  align-items: center;
+
+
+}
+.h1{
+  background-color: rgb(146, 146, 236);
+  color: black;
+  height: 40px;
+  padding: 5px;
+  text-align: center;
+}
+.body{
+  margin: 5px;
+  padding: 5px;
+  /* display: flex; */
+  /* justify-items: center; */
+
+}
+#firstName, #lastName, #email, #phone, .dropdown{
+  height: 25px;
+  width:250px;
+}
+.svisor{
+  padding: 10px;
+  text-align: center;
+
+}
+.submit{
+  height: 30px;
+  width: 75px;
+   
+}
+.divSubmit{
+
+  padding: 10px;
+  
+}

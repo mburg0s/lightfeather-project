@@ -29,7 +29,7 @@ export const getSupervisor = () => (dispatch) => {
 };
 
 export const addForm = (p) => (dispatch) => {
-  console.log(p,'pop')
+  // console.log(p,'pop')
   axios.post("/api/submit",{p}).then((resp) => {
     console.log(resp, "submit");
   });
